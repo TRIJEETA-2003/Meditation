@@ -11,6 +11,10 @@
     <style>
       /*update: 2024-12-21 */
       @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
       .circles {
         position: absolute;
         top: 0;
@@ -107,29 +111,56 @@
           border-radius: 50%;
         }
       }
+      .container {
+        position: relative;
+        z-index: 99;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .options-list {
+        list-style: none;
+        padding: 0;
+      }
+      .options-list li {
+        margin: 15px 0;
+      }
+      .options-list a {
+        display: block;
+        padding: 15px 25px;
+        text-decoration: none;
+        color: #333; /* Dark gray */
+        background-color: #fff; /* White */
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        font-size: 1.2rem;
+        transition: all 0.3s;
+      }
+      .options-list a:hover {
+        background-color: #f0f0f0; /* Light gray */
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+      }
     </style>
-    <!-- <div class="area">
-      <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul> -->
-      <div style="z-index: 99;" class="container">
-        <ul class="options-list">
-          <li><a href="meditation.html">Meditation</a></li>
-          <li><a href="focus.html">Focus</a></li>
-          <li><a href="relax.html">Relax</a></li>
-          <li><a href="deep-relax.html">Deep Relax</a></li>
-          <li><a href="sleep.html">Sleep</a></li>
-        </ul>
-      </div>
-    <!-- </div> -->
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="container">
+      <ul class="options-list">
+        <li><a href="meditation.html">Meditation</a></li>
+        <li><a href="focus.html">Focus</a></li>
+        <li><a href="relax.html">Relax</a></li>
+        <li><a href="deep-relax.html">Deep Relax</a></li>
+        <li><a href="sleep.html">Sleep</a></li>
+      </ul>
+    </div>
   </body>
 </html>
