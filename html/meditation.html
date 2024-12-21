@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minutes and Seconds Timer</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body background="../assets/images/meditation.jpg"">
+  <div class="container">
+    <div class="timer">
+      <input type="number" id="minutesInput" value="1" min="0" max="99" />
+      <span>mins</span> :
+      <input type="number" id="secondsInput" value="0" min="0" max="59" />
+      <span>secs</span>
+    </div>
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <script src="../js/script_meditation.js"></script>
+</body>
+</html>
