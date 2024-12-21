@@ -6,7 +6,7 @@ const resetBtn = document.getElementById("resetBtn");
 
 let timerInterval = null;
 let totalSeconds = getInputSeconds();
-const audio = new Audio("../assets/music/focus_gamma.wav");
+const audio = new Audio("../assets/music/focus_gamma.mp3");
 audio.loop = true;
 
 // Start Timer

@@ -6,7 +6,7 @@ const resetBtn = document.getElementById("resetBtn");
 
 let timerInterval = null;
 let totalSeconds = getInputSeconds();
-const audio = new Audio("../assets/music/relax.wav");
+const audio = new Audio("../assets/music/relax.mp3");
 audio.loop = true;
 
 // Start Timer
