@@ -6,10 +6,15 @@ body {
   height: 100vh;
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-  background-size: 150%; /*update: 2024-12-21 */
-  background-position: center; /*update: 2024-12-21 */
-  background-repeat: no-repeat; /*update: 2024-12-21 */
-  overflow: hidden; /*update: 2024-12-21 */
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: 150%; /*update: 2024-12-21 */
+    background-position: center; /*update: 2024-12-21 */
+    background-repeat: no-repeat; /*update: 2024-12-21 */
+    overflow: hidden; /*update: 2024-12-21 */
+  }
 }
 
 .container {
