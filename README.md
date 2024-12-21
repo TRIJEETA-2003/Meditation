@@ -24,7 +24,7 @@ project-folder/
 │   └── music/
 │       └── focus_gamma.wav
 ```
-<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
+<img src="assets/images/colour_line_akashdip2001.png">
 
 # Deployment:
 
