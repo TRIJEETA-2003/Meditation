@@ -5,9 +5,6 @@
 ![Screenshot 2024-12-21 163440](https://github.com/user-attachments/assets/c1615232-e5b9-4ae5-b838-5893f536f9db)
 </details>
 
-To containerize your website using Docker, we'll create a Dockerfile and a docker-compose.yml file. This setup will ensure that your website can run easily in any environment, including cloud platforms.
-
-
 ---
 
 Folder Structure
@@ -27,7 +24,15 @@ project-folder/
 │   └── music/
 │       └── focus_gamma.wav
 ```
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
+# Deployment:
+
+- AWS:EC2 (Cloud)
+- Jenkins (CI-CD)
+- Docker (runtime environment)
+
+---
 
 ## Build and Run the Container
 
