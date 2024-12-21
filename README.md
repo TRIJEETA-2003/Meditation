@@ -47,16 +47,13 @@ docker-compose up
 
 ## How It Works
 
-1. The Dockerfile sets up an Nginx server and copies your website files into the correct directory (/usr/share/nginx/html).
+1. The Dockerfile sets up an Nginx server and copies your website files into the correct directory (/usr/share/nginx/html)[.](https://github.com/akashdip2001)
 
 
 2. The docker-compose.yml configures the container and maps your local directory to the container for easy development.
 
 
 3. You can deploy the containerized website on any cloud platform (e.g., AWS, Google Cloud, Azure) that supports Docker.
-
-
-
 
 ---
 
